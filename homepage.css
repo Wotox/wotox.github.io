@@ -16,6 +16,10 @@ h5{
 .bd{
   margin-left: 20px;
 }
+body{
+  font-family: 'Secular One', sans-serif;
+}
+
 .topnav{
   text-align:left;
   font-size: 15px;
@@ -38,19 +42,27 @@ h5{
   font-size: 17px;
 }
 
-#loginb{
+#logo{
+  width: 55px;
+  height: 55px;
+  position: relative;
+  top: 1px;
+  width: 70px;
+  height: 55px;
+}
+
+
+#acc_btn{
   border-radius: 20px;
   border: 2px 2px 2px 2px;
   border-color: #1c2541;
   font-weight: bold;
-
 }
 
 .demoss{
   width: 300px;
   height: 200px;
-  margin-left: 35px;
-  align-items: center;
+  margin-left: 15px;
 }
 
 #one{
@@ -76,12 +88,10 @@ h5{
   padding-left: 20px;
 }
 #logo{
-<<<<<<< HEAD
   width: 55px;
   height: 55px;
   position: relative;
   top: 1px;
-=======
   width: 70px;
   height: 55px;
 }
@@ -89,11 +99,11 @@ h5{
 .games_grid{
   text-align: center;
 }
-#text_grid{
-  margin-bottom: 20px;
+#welcome{
+  margin-bottom: 40px;
 }
 
 .desc_grid{
   text-align: center;
->>>>>>> 4be693951cee0bc319ede138c81f9c3f1bfd90c9
+  margin-bottom: 50px;
 }

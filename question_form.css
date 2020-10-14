@@ -43,41 +43,38 @@ h1{
   color:#087e8b;
 }
 
-.desc{
-  font-size: 20px;
-  margin-top: 80px;
+.question_form{
+  background-color:#b5f8fe;
+  font-size: 25px;
+  margin-top: 150px;
+  margin-left: 40px;
+  border: 3px #3a506b solid;
+  border-radius: 30px;
+  padding: 10px 10px 10px 10px;
 }
-.char{
+
+label{
   font-weight: 500;
-  font-size: 30px;
-  color: #7400b8;
-}
-
-#game_name{
-  font-weight: 700;
-  margin-left: 100px;
-  margin-top: 10px;
-}
-
-#game_preview{
-  margin-left: 60px;
-  margin-top: 50px;
-  width: 400px;
-  height: 500px;
-  border-radius: 50px;
-  border: #5bc0be 3px solid;
-}
-
-#game_desc{
-  font-size: 30px;
   color: #3a506b;
-  font-weight: 600;
+}
+#notification{
+  font-weight: normal;
+  font-size: 20px;
 }
 
-.btnact{
-  width: 150px;
-  height: 60px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 html,body{
     width: 100%;

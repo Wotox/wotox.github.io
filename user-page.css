@@ -57,12 +57,12 @@ body {
     color: #fbd87f;
     height: 60px;
   }
-  
+
   .topnav a:hover {
     background-color: #b5f8fe;
     color: #f75590;
   }
-  
+
   .topnav a {
     float: center;
     color: #3a506b;
@@ -71,7 +71,7 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
-  
+
   #loginb{
     border-radius: 20px;
     border: 2px 2px 2px 2px;
@@ -79,6 +79,9 @@ body {
     font-weight: bold;
   }
 
+#games{
+  font-weight: 600;
+}
   #logo{
     width: 55px;
     height: 55px;

@@ -1,0 +1,87 @@
+body {
+    background-color: #b5f8fe;
+}
+
+.profile-picture {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+.settings-picture {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    right: 16px;
+}
+
+.user-information {
+    position: absolute;
+    top: 165px;
+    left: 350px;
+}
+
+.games-label {
+    position: absolute;
+    top: 370px;
+    left: 60px;
+}
+
+.games-container {
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+
+#game {
+    height: 200px;
+    border-left: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-top: 3px;
+    border-style: solid;
+    border-color: #b5f8fe;
+}
+
+.separator {
+    bottom: 500px
+}
+
+.topnav{
+    text-align:left;
+    font-size: 15px;
+    background-color: #10ffcb;
+    color: #fbd87f;
+    height: 60px;
+  }
+  
+  .topnav a:hover {
+    background-color: #b5f8fe;
+    color: #f75590;
+  }
+  
+  .topnav a {
+    float: center;
+    color: #3a506b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #loginb{
+    border-radius: 20px;
+    border: 2px 2px 2px 2px;
+    border-color: #1c2541;
+    font-weight: bold;
+  }
+
+  #logo{
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 1px;
+  }

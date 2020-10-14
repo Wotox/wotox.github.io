@@ -29,8 +29,6 @@ body{
   height: 55px;
   position: relative;
   top: 1px;
-  width: 70px;
-  height: 55px;
 }
 
 
@@ -45,25 +43,41 @@ h1{
   color:#087e8b;
 }
 
-p{
-  text-align: right;
+.desc{
+  font-size: 20px;
+  margin-top: 80px;
+}
+.char{
+  font-weight: 500;
+  font-size: 30px;
+  color: #7400b8;
 }
 
-.main{
-  background-color: #b5f8fe;
+#game_name{
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: 10px;
 }
 
 #game_preview{
-  margin-left: 100px;
-  margin-top: 70px;
+  margin-left: 60px;
+  margin-top: 50px;
   width: 400px;
-  height: 550px;
+  height: 500px;
   border-radius: 50px;
   border: #5bc0be 3px solid;
 }
 
-.game_desc{
-  margin-left:20px;
-  margin-right: 300px;
-  margin-bottom: 200px;
+#game_desc{
+  font-size: 30px;
+  color: #3a506b;
+  font-weight: 600;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }

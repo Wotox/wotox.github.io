@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 .topnav{
     text-align:left;
@@ -12,12 +12,12 @@ html, body {
     color: #fbd87f;
     height: 60px;
   }
-  
+
   .topnav a:hover {
     background-color: #b5f8fe;
     color: #f75590;
   }
-  
+
   .topnav a {
     float: center;
     color: #3a506b;
@@ -26,7 +26,7 @@ html, body {
     text-decoration: none;
     font-size: 17px;
   }
-  
+
   #logo{
     width: 55px;
     height: 55px;
@@ -44,7 +44,7 @@ html, body {
   .btnact{
     width: 150px;
     height: 60px;
-  
+
   }
 
   .forum-label {
@@ -58,6 +58,8 @@ html, body {
     top: 17px;
     left: 1320px;
     font-size: large;
+    border-radius: 30px;
+    border: 1px #3a506b solid;
   }
 
   .topics-container {
@@ -70,3 +72,9 @@ html, body {
   #forum-lbl {
       position: fixed;
   }
+.breadcrumb{
+  margin-top:40px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 600;
+}
